@@ -9,7 +9,7 @@ import java.io.File
 class BaseDatosHelper(contexto: Context) : SQLiteOpenHelper(contexto, NOMBRE_DB, null, 1) {
 
     companion object {
-        private const val NOMBRE_DB = "tabla_t_student.db"
+        private const val NOMBRE_DB = "tstudent.db"
     }
 
     init {
